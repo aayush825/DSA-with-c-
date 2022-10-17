@@ -25,7 +25,7 @@ int getmax(int num[],int n){
 	}
 	return max;
 }
-
+//Main 
 int main(){
 	
 	int size;
