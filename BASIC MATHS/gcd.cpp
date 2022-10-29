@@ -1,38 +1,28 @@
 #include<iostream>
 using namespace std;
-
-int gcd(int a, int b) {
-
+int gcd(int a,int b){
     if(a==0)
-    return b;
-
+       return b;
     if(b==0)
-    return a;
+       return a;
 
-    while(a != b) {
-
-        if(a>b)
-        {
-            a = a-b;
+    while(a!=b){
+        if(a>b){
+            a=a-b;
         }
         else{
-            b = b-a;
+            b=b-a;
         }
     }
-    return a;
+    return b;
 }
+int main(){
+int a,b;
+cout<<"enter values of a and b";
+cin>>a>>b;
 
-int main() {
-    
-    int a,b;
-    cout << "Enter the Values of a and b" << endl;
-    cin >> a >> b;
+int ans=gcd(a,b);
+cout<<"the gcd of a and b is"<<ans<<endl;
 
-    int ans = gcd(a,b);
-
-    cout << " The GCD of " << a << " & " << b << " is: " << ans << endl;
-
-
-
-    return 0;
+return 0;
 }
