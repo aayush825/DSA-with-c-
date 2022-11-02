@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//Partition 
 int partition(int A[],int l,int h)
 {
  int pivot=A[l];
