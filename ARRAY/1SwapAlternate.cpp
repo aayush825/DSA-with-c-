@@ -7,7 +7,7 @@ int print(int arr[],int n){
 		
 	}cout<<endl;
 }
-
+//swap fn
 int swap(int arr[],int size){
 	for(int i=0;i<size;i+=2){
 	
@@ -31,5 +31,5 @@ int main(){
    
    
    return 0;
-   //comments 
+   
 }
