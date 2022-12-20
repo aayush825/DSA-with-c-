@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//Sum fn
 int sum(int *arr,int size){
 	if(size == 0)
 	   return 0;
