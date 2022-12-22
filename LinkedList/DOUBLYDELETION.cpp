@@ -26,7 +26,7 @@ class node {
     }
 
 };
-
+//Deletion 
 void deletenode(int position,node* &head){
   //deleting first or start node
   if(position ==1){
