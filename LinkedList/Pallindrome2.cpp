@@ -1,7 +1,7 @@
 
 //above approach space time complex - 0(n)
 //approach 2
-//tc-0n sc- 0(1)
+//time complexity-0n sc- 0(1)
 #include <bits/stdc++.h>
 using namespace std;
 

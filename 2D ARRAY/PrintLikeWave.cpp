@@ -31,6 +31,7 @@ vector<int> wavePrint(vector<vector<int> > arr, int nRows, int mCols)
 }
 
 int main(){
+//2d vector 
  vector<vector<int>> vect
     {
         {1, 2, 3},
