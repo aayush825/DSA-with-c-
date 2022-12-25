@@ -14,7 +14,7 @@ public:
         next = NULL;
     }
 };
-
+//printing fn
 void print(node *head)
 {
     if (head == NULL)
