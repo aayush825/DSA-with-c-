@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//Palindrome 
 bool palindrome(string& str,int i,int j){
 	if(i>j)
 	   return true;
