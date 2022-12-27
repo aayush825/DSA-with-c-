@@ -8,6 +8,7 @@ int maximumFrequency(vector<int> &arr,int n){
     int maxFreq = 0;
     int maxAns = 0;
 
+
     for(int i =0; i<arr.size();i++){
         count[arr[i]]++; //jo bhi arr m pada h usko increment krdo
         maxFreq = max(maxFreq,count[arr[i]]);
