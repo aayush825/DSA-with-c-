@@ -103,6 +103,7 @@ void insertattail(node* &tail,int d){
     tail =temp;
 }
 
+
 void insertatposition(node* &tail,node* &head,int positon,int d){
     //insert at start
     if(positon == 1){
