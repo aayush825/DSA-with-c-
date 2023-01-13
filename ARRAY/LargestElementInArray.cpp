@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 int largest(vector<int> &vect){
 int max = vect[0];
 for(int i=0;i<vect.size();i++){
