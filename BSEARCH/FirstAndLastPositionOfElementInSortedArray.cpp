@@ -23,6 +23,7 @@ int firtocc(int arr[] , int n, int key){
     return ans;
 } 
 
+
 int lasttocc(int arr[] , int n, int key){
     int s=0;
     int e=n-1;
