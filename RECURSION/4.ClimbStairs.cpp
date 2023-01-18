@@ -15,6 +15,7 @@ int countDistinctWayToClimbStair(long long nStairs)
     
     
 }
+
 int main() {
     int ans;
     int nStairs =5;
