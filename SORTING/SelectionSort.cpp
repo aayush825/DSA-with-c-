@@ -13,6 +13,7 @@ void selectionsort(int A[],int n){
 	}
 }
 
+
 int main(){
 	
 	int A[]={520,65,41,78,6,19,37,20,98,65},i,n=10;
