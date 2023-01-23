@@ -2,6 +2,7 @@
 #include<stack>
 using namespace std;
 
+
 int main(){
     //using stl
     //creation of stack with name s
