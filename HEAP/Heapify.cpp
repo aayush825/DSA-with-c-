@@ -11,8 +11,6 @@
 //left child -- 2*i index
 //right child -- (2*i+1) index
 //parent = (i/2)
-
-
 //max heap inserttion
 //tc - log n
 #include<iostream>
