@@ -2,12 +2,10 @@
 #include<stack>
 using namespace std;
 
-
 int main(){
     //using stl
     //creation of stack with name s
     stack<int> s;
-
     s.push(1);
     s.push(2);
     s.push(3);
