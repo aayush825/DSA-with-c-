@@ -11,7 +11,6 @@ bool palindrome(string& str,int i,int j){
 	return palindrome(str,i+1,j-1);      
 	
 }
-
 int main(){
 	
 	string name = "kook";
