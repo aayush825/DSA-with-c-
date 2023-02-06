@@ -16,6 +16,5 @@ int main() {
     
     int ans = fact(n);
     cout<<ans;
-
     return 0;
 }
