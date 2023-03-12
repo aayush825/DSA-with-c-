@@ -30,7 +30,6 @@ bool isCycle(int V,vector<int> adj[]){
 }
 return false;
 }
-
 };
 
 int main() {
