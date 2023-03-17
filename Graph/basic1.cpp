@@ -29,6 +29,7 @@ class graph{
     }
 
 };
+
 int main(){
     int n;
     cout<<"enter no of nodes"<<endl;
