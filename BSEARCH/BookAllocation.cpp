@@ -34,7 +34,10 @@ bool isPossible(vector<int> arr, int n, int m, int mid)
 }
 
 int allocateBooks(vector<int> arr, int n, int m)
-{
+{   
+    if(n<m)
+        return -1;//if  no of books less than students return -1
+
     int s = 0;
     int sum = 0;
 
