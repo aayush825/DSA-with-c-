@@ -18,4 +18,6 @@ class Solution{
         
         mid = low+(high - low)/2;    
     }
+        
     return low;
+    }
