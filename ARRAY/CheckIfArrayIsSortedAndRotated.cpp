@@ -14,6 +14,7 @@ bool check(vector<int> nums){
     }
     return true;
 }
+
 int main(){
     vector<int> nums{3,4,5,1,2};
     //vector<int> nums{1,1,1};
