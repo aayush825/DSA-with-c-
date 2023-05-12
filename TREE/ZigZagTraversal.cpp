@@ -34,5 +34,4 @@ vector<vector<int>>zigzag(TreeNode* root){
     }
     return result;
 }
-
 };
